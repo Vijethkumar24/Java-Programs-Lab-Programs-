@@ -8,7 +8,7 @@ public class QuickSort {
     }
 
     public static void quicksort(int[] arr, int low, int high) {
-        int i = low, j = high;
+        int i = low, j = mid;
         int temp;
         int pivot = arr[low];
         while (i <= j) {
