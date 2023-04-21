@@ -27,7 +27,8 @@ public class HelloWorld {
         {
              System.out.println("set contains 2");
         }
-         Iterator iter = set.iterator();//To iter each elemet in HashSet
+         Iterator iter = set.iterator(); //To iter each elemet in HashSet.Creating an iter object
+        
          while (iter.hasNext()) //Iter will by default map to null  ie.NULL-->2-->3-->4 ( NOTE: Order of elements will be unordered in HashSet ).This is used to check whether it has next element in HashSet
             System.out.print(iter.next() + " "); //To display each HashSet element
             
